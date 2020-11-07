@@ -1,0 +1,82 @@
+Who is HOD of Civil department?
+- Dr. B S Patil.
+how many labs are in Civil department?
+- There are 8 labs in civil Department.
+how many computers in lab?
+- There are 20 computers in each lab.
+how many classrooms are in Civil department?
+- There are 3 classrooms in the Civil Department.
+what are the ICT tools used in the DEpartment?
+- MOODEL , GetTutor , FTP , NPTL this are the ICT tools used in the Department.
+how many Tutorial rooms are in Civil department?
+- There is 1 tutorial room in Civil Department.
+How many times the feedback is taken?
+- 2 times in the Semister.
+What is vision of Civil Department?
+- To be a centre of excellence Civil Engineering education to prepare professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society.
+What is mission of Civil Department?
+- To prepare technically and professionally competent engineers by imparting quality education through effective teaching learning methodologies and providing stimulating environment for research and innovation. To develop professional skills and right attitude in students that will help them to succeed and progress in their personal and professional career. To imbibe moral and ethical values in students with concern to society and environment.
+Where is se Civil class room?
+- Room number 417.
+Where is te Civil class room?
+- Room number 416.
+Where is be Civil class room?
+- Room number 415.
+Where is the Fluid mechanics lab?
+- Room number 418.
+Where is the Bently lab?
+- Room number 420.
+Where is the APM lab?
+- Room number 422.
+Where is the Transporting Engineering lab?
+- Room number 404.
+Where is the Strengt of material lab?
+- Room number 405.
+Where is the Geology lab?
+- Room number 402.
+Where is the Survey lab?
+- Room number 355.
+Where is the Additionl lab?
+- Room number 352.
+Where is the civil HOD cabin?
+- Room number 401.
+Where is the civil office?
+- Room number 401.
+About Department Of Civil
+-Welcome to the Department of Civil Engineering. The department of Civil Engineering is established in the year 2009 – from the beginning of college, with the intake of 60. The department has well-qualified and experienced faculty.The department is well equipped with spacious laboratories, which cater to testing of materials as well as academic needs. Today’s civil engineer should possess in depth Civil Engineering skills for analysis, design, construction and maintenance of various structures, computer, managerial and communication skills for better management of various structures. The faculty of the department continues to strive loftier by exploring new frontiers of knowledge, imparting the latest technical knowledge to the students and conducting high quality of research. The faculty also renders technical advice on live engineering problems to various Government and Private Sector companies throughout country.
+
+tell me about Dr. B. S. Patil
+	-Name:Dr. B. S. Patil. Designation:Professor and Head of Department. Qualification:M.E, MBA, Ph.D. Area of specialization: - Civil Engineering. Teaching Experience:29 Years. Industrial Experience: 0 Years. Contact Number:9448889772
+
+
+tell me about Dr.K.Ravi	
+	-Name:Dr.K.Ravi. Designation: Adjunct Professor. Qualification: M.Tech(IITB),Ph.D(VTU). Area of specialization: Civil engineering,Concrete Technology. Teaching Experience: 35 Years. Industrial Experience: 3 Years. Contact Number:8329824183
+
+tell me about Dr. Bhagate Kiran Appasaheb
+	-Name:Dr. Bhagate Kiran Appasaheb. Designation:  Associate Professor. Qualification: BE, M.Tech(IITG), PhD.(UK),MIechE,Ceng(UK). Area of specialization: Structural Engineering. Teaching Experience: 5 Years. Industrial Experience: 10 Years. Other-PSE Assesor,NAFEMS,Uk. Contact Number:9850398885
+
+tell me about Mr. A B Patil
+	-Name:Mr. A. B. Patil. Designation: Assistant Professor. Qualification:B.E , M-Tech(Structures), PhD(Persuing). Area of specialization: Structural Engineering. Teaching Experience:15 Years. Industrial Experience: 3 Years. Contact Number:9960809193
+
+
+tell me about Mr. M. H. Mota
+	-Name:Mr. M. H. Mota. Designation:Assistant Professor. Qualification:B.E , M-Tech(Environmental Engineering) Ph.D(pursuing). Area of specialization: Environment Engineering. Teaching Experience:15 Years. Industrial Experience: 2 Years. Contact Number:9272195932
+
+tell me about Mr. R. M. Garud
+	-Name:Mr. R. M. Garud. Designation: Assistant Professor. Qualification:B.E, M.Tech (Env), Ph.D (Pursuing). Area of specialization: Environment Science and Technology. Teaching Experience:9 Years. Industrial Experience: 18 Years. Contact Number:9421282622
+
+tell me about Mr. Jagtap Prashant Rangrao
+	-Name:Mr. Jagtap Prashant Rangrao. Designation: Assistant Professor. Qualification:Ph. D. (Persuing). Area of specialization: Structures. Teaching Experience: 9Years. Industrial Experience: 1 Years. Contact Number:9890371592
+
+tell me about Mr. S. S. Chougule.
+	-Name:Mr. S. S. Chougule. Designation: Assistant Professor & Dean-Students Affairs. Qualification:B.E , M .E(Structures). Ph.D (pursuing). Area of specialization: Civil Structure. Teaching Experience: 8 Years. Industrial Experience: 1 Years. Contact Number:9890154849
+
+tell me about Ms Kambre mam	
+	-Name:Ms.Shweta Kambare. Designation: Assistant Professor 
+Qualification:M.E. Area of specialization:Text Document Classification. Teaching Experience:2 Years. Industrial Experience: 0 Years 
+
+tell me about Ms hankare mam
+	-Name:Ms. Hankare Priyanka Prakash. Designation: Assistant Professor. Qualification:ME, BE. Area of specialization:Computer Science and Engineering. Teaching Experience:1.5 Years . Industrial Experience: 0 Years. Contact Number:8390911749
+
+tell me about Ms. Prachi mam
+	-Name:Ms.Prachi Sanjay Shete. Designation:Assistant Professor. Qualification:BE(CSE),MTECH(CSE). Area of specialization:Image Processing.Teaching Experience:1.6 Years. Industrial Experience:00 Years. Contact Number:8329157550

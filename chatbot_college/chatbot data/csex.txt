@@ -1,0 +1,41 @@
+
+who is HOD of cse department?
+- Dr. Turukmane sir.
+HOD of cse department?
+- Dr. Turukmane sir.
+cse department HOD?
+- Dr. Turukmane sir.
+who is HOD of CSE department?
+- Dr. Turukmane sir.
+HOD of CSE department?
+- Dr. Turukmane sir.
+CSE department HOD?
+- Dr. Turukmane sir.
+tell me name of cse department HOD?
+- Dr. Turukmane sir.
+internet bandwidth?
+- 100 MBpS.
+wifi bandwidth?
+- 50 MBpS.
+se cse class room?
+- Room number 60.
+te cse class room?
+- Room number 45.
+be cse class room?
+- Room number 44.
+opereting system lab?
+- Room number 54.
+Database lab?
+- Room number 51.
+web technology lab?
+- Room number 52.
+project lab?
+- Room number 59.
+programing lab?
+- Room number 58.
+Microprocessor lab?
+- Room number 55.
+languege lab?
+- Room number 57.
+computer network lab?
+- Room number 56.

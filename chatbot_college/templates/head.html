@@ -1,0 +1,603 @@
+<!DOCTYPE html5>
+<html>
+<title>SIT Assistant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{{url_for  ('static',filename='style.css')}}">
+<!--   <link rel="stylesheet"type="text/css" href="{{url_for ('static',filename='head.css')}}"> -->
+  <link rel="stylesheet" type="text/css" href="{{url_for  ('static',filename='bootstrap.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for  ('static',filename='font.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for  ('static',filename='w3.css')}}">
+  <style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background: linear-gradient(to right, rgb(109, 63, 248), rgb(245, 46, 51));
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.chat-form input {
+  background: #fbfbfb;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  resize: none;
+  padding: 10px;
+  font-size: 30px;
+  color: #333;
+}
+ input {
+  background: #fbfbfb;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  resize: none;
+  padding: 10px;
+  font-size: 30px;
+  color: #333;
+}
+
+input:focus {
+  background: #fff;
+}
+
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+</style>
+
+
+<body onload="speak()">
+
+<!-- Navbar (sit on top) -->
+<nav>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="home" class="w3-bar-item w3-button"><b>SIT</b> Assistant</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="SIT Assistant" class="w3-bar-item w3-button">Assistant</a>
+      <a href="AboutUs" class="w3-bar-item w3-button">About</a>
+      <a href="contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+</nav>
+<header>
+<div class="container">
+        <div class="row">
+        <div class="col-md-6">
+                    <img src="{{url_for('static',filename='robot.gif')}}" width="500px" height="400px">
+        </div>
+        <div class="col-md-6">  
+                <div class="chat self">
+                  <div class="user-photo" style="overflow: hidden;"><img  src="{{url_for('static',filename='logo2.jpg')}}" style="width: 100%"></div>
+                     <p class="chat-message" style="color: black">{{msg}}</p>
+                </div>
+                
+                <div class="chat friend">
+                  <div class="user-photo" style="overflow: hidden;"><img  src="{{url_for('static',filename='logo.png')}}" style="width: 100%"></div>  
+                  <p class="chat-message" style="color: black">{{reply_bot}}</p>
+
+                </div>
+        </div>    
+          
+        </div> 
+</div>
+
+<div class="container" class="chat-form">
+
+  <form id="aaa" action="/SIT Assistant" method="post" autocomplete="off">
+      <div class="chat-form">
+
+        <div class="autocomplete">
+          <input id="myInput" type="text" name="message">
+        </div>
+
+        
+        <button>Send</button>
+      </div>
+      </form>
+       <!-- <button id='speak_btn' onclick="startDictation()">Speak</button> -->
+        <!-- <img id='speak_btn' src="{{url_for('static',filename='Capture.png')}}" onclick="startDictation()"> -->
+  
+</div>
+
+<!-- <div class="col-md-2">
+    <div class="chat-form">
+      <button onclick="startDictation()">Speak</button>
+    </div>
+  </div> -->
+
+</header>
+
+<script>
+function autocomplete(inp, arr) {
+  /*the autocomplete function takes two arguments,
+  the text field element and an array of possible autocompleted values:*/
+  var currentFocus;
+  /*execute a function when someone writes in the text field:*/
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      /*close any already open lists of autocompleted values*/
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      /*create a DIV element that will contain the items (values):*/
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+      /*append the DIV element as a child of the autocomplete container:*/
+      this.parentNode.appendChild(a);
+      /*for each item in the array...*/
+      for (i = 0; i < arr.length; i++) {
+        /*check if the item starts with the same letters as the text field value:*/
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          /*create a DIV element for each matching element:*/
+          b = document.createElement("DIV");
+          /*make the matching letters bold:*/
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          /*insert a input field that will hold the current array item's value:*/
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          /*execute a function when someone clicks on the item value (DIV element):*/
+          b.addEventListener("click", function(e) {
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
+              (or any other open lists of autocompleted values:*/
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+  /*execute a function presses a key on the keyboard:*/
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        e.preventDefault();
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    /*a function to classify an item as "active":*/
+    if (!x) return false;
+    /*start by removing the "active" class on all items:*/
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    /*add class "autocomplete-active":*/
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    /*a function to remove the "active" class from all autocomplete items:*/
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+    /*close all autocomplete lists in the document,
+    except the one passed as an argument:*/
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+  /*execute a function when someone clicks in the document:*/
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+/*An array containing all the country names in the world:*/
+var quetions = ['Who is HOD of Basic Science and Humanities department?',
+ 'how many labs are in Basic Science and Humanities department?',
+ 'how many classrooms are in Basic Science and Humanities department?',
+ 'what are the ICT tools used in the DEpartment?',
+ 'how many Tutorial rooms are in Basic Science and Humanities department?',
+ 'How many times the feedback is taken?',
+ 'What is vision of Basic Science and Humanities Department?',
+ 'What is mission of Basic Science and Humanities Department?',
+ 'Where is Basic Science and Humanities class room?',
+ 'Where is the Chemestry lab?',
+ 'Where is the Physics lab?',
+ 'Where is the Languege lab 1?',
+ 'Where is the Languege lab 2?',
+ 'Where is the Basic Science and Humanities HOD cabin?',
+ 'Where is the Basic Science and Humanities office?',
+ 'About Department Of Basic Science and Humanities',
+ 'tell me about HOD of Basic Sciense & Humanities',
+ 'tell me about  UA Khot sir',
+ 'tell me about Dr. U R Biraje',
+ 'tell me about Dr. Shital Patil',
+ 'tell me about Dr. Sarika Patil',
+ 'tell me about Dr. Bagade Amit Arjun',
+ 'tell me about Mr. Sachin S. Jadhav',
+ 'tell me about Mr. Mohan Hari Kalawate',
+ 'tell me about Mr.Gondkar Vittal V',
+ 'tell me about Mr. U. S. Siddharth',
+ 'tell me about Ms. S. S. Mane.',
+ 'tell me about Mr. Patil Pritam Raygonda.',
+ 'tell me about Ms. Kadam Pranjali Rajaram.',
+ 'tell me about Ms. S D Patil.',
+ 'Who is HOD of Civil department?',
+ 'how many labs are in Civil department?',
+ 'how many computers in lab?',
+ 'how many classrooms are in Civil department?',
+ 'what are the ICT tools used in the DEpartment?',
+ 'how many Tutorial rooms are in Civil department?',
+ 'How many times the feedback is taken?',
+ 'What is vision of Civil Department?',
+ 'What is mission of Civil Department?',
+ 'Where is se Civil class room?',
+ 'Where is te Civil class room?',
+ 'Where is be Civil class room?',
+ 'Where is the Fluid mechanics lab?',
+ 'Where is the Bently lab?',
+ 'Where is the APM lab?',
+ 'Where is the Transporting Engineering lab?',
+ 'Where is the Strengt of material lab?',
+ 'Where is the Geology lab?',
+ 'Where is the Survey lab?',
+ 'Where is the Additionl lab?',
+ 'Where is the civil HOD cabin?',
+ 'Where is the civil office?',
+ 'About Department Of Civil',
+ 'tell me about Dr. B. S. Patil',
+ 'tell me about Dr.K.Ravi',
+ 'tell me about Dr. Bhagate Kiran Appasaheb',
+ 'tell me about Mr. A B Patil',
+ 'tell me about Mr. M. H. Mota',
+ 'tell me about Mr. R. M. Garud',
+ 'tell me about Mr. Jagtap Prashant Rangrao',
+ 'tell me about Mr. S. S. Chougule.',
+ 'tell me about Ms Kambre mam',
+ 'tell me about Ms hankare mam',
+ 'tell me about Ms. Prachi mam',
+ 'tell me about bagane Sir',
+ 'tell me about Chairman sir',
+ 'tell me about ',
+ 'tell me about vision of college',
+ 'tell me about mission of college',
+ 'Who is HOD of CSE department?',
+ 'What is internet bandwidth?',
+ 'what is wifi bandwidth?',
+ 'how many labs are in CSE department?',
+ 'how many computers in each lab?',
+ 'how many classrooms are in CSE department?',
+ 'what are the ICT tools used in the DEpartment?',
+ 'how many Tutorial rooms are in CSE department?',
+ 'How many times the feedback is taken?',
+ 'What is vision of CSE Department?',
+ 'What is vision of CSE Department',
+ 'What is mission of CSE Department?',
+ 'What is mission of CSE Department',
+ 'Where is se cse class room?',
+ 'Where is te cse class room?',
+ 'Where is be cse class room?',
+ 'Where is the tutorial room?',
+ 'Where is the opereting system lab?',
+ 'Where is the Database lab?',
+ 'Where is the web technology lab?',
+ 'Where is the project lab?',
+ 'Where is the programing lab?',
+ 'Where is the Microprocessor lab?',
+ 'Where is the languege lab?',
+ 'Where is the computer network lab?',
+ 'Where is the CSE HOD cabin?',
+ 'About Department Of Computer Science & Engineering',
+ 'program educatinal objective of CSE Department',
+ 'tell me about HOD of CSE Department',
+ 'tell me about Dr. Turukmane sir',
+ 'tell me about Venkatesh sir',
+ 'tell me about Dr. S K Muthusunadar',
+ 'tell me about N P Jadhav sir',
+ 'tell me about Mr. Mulani sir',
+ 'tell me about Mrs. Jadhav mam',
+ 'tell me about Jamadar sir',
+ 'tell me about Mrs. jujare mam',
+ 'tell me about Ms Kambre mam',
+ 'tell me about Ms hankare mam',
+ 'tell me about Ms. Prachi mam',
+ 'who is HOD of cse department?',
+ 'HOD of cse department?',
+ 'cse department HOD?',
+ 'who is HOD of CSE department?',
+ 'HOD of CSE department?',
+ 'CSE department HOD?',
+ 'tell me name of cse department HOD?',
+ 'internet bandwidth?',
+ 'wifi bandwidth?',
+ 'se cse class room?',
+ 'te cse class room?',
+ 'be cse class room?',
+ 'opereting system lab?',
+ 'Database lab?',
+ 'web technology lab?',
+ 'project lab?',
+ 'programing lab?',
+ 'Microprocessor lab?',
+ 'languege lab?',
+ 'computer network lab?',
+ 'Who is HOD of E&TC department?',
+ 'How many faculties are there in the E&TC Department?',
+ 'How many Doctorate faculty are there in the E&TC Department?',
+ 'How many labs are in E&TC department?',
+ 'How many computers in each lab?',
+ 'How many classrooms are in E&TC department?',
+ 'what are the ICT tools used in the DEpartment?',
+ 'How many times the feedback is taken?',
+ 'Where is SE E&TC class room?',
+ 'Where is TE E&TC class room?',
+ 'Where is BE E&TC class room?',
+ 'Where is the Analog Design Lab?',
+ 'Where is the Measurement lab?',
+ 'Where is the Video Engineering lab?',
+ 'Where is the Digital Design and Microprocessor lab?',
+ 'Where is the Communication lab?',
+ 'Where is the Advanced Communication lab?',
+ 'Where is the Power Electronic and ESD lab?',
+ 'Where is the computer Language lab?',
+ 'Where is the computer Program 2 lab?',
+ 'Where is the computer Program 1 lab?',
+ 'Where is the E&TC HOD cabin?',
+ 'Where is the E&TC Office ?',
+ 'About Department Of E&TC',
+ 'program educational objective of E&TC Departement.',
+ 'What is Vision of E&TC Department?',
+ 'What is Mission of E&TC Department?',
+ 'Has your educational experience been measured up to your expectations ?',
+ 'Are you providing feedback as a part of a quality/programme improvement mechanism ?',
+ 'How many times is faculty feedback taken?',
+ 'Is WiFi facility available ?',
+ 'Which Students Association are present in CSE Department?',
+ 'Tell me about Mrs. Supriya P Kurlekar',
+ 'Tell me about Dr. Narendra Babu.',
+ 'Tell me about Ms. Kalpana N Rode.',
+ 'Tell me about Dr.Chandrasekhar M Tavade.',
+ 'Tell me about Dr. Ananad J Dhas.',
+ 'Tell me about Mr. Kupade K. A.',
+ 'Tell me about Ms Madhuri B Mulik.',
+ 'Tell me about Shital Ranjit Ghorpade. ',
+ 'Tell me about Mr. Vaibhav V.Khandare. ',
+ 'Tell me about Mr.Mohan A. Chimanna.',
+ 'Tell me about Ms. Sharda Y Salunkhe.',
+ 'Tell me about Mr. Manoj Motilal Babar.',
+ 'Tell me about Mr. Sharan Kumar.',
+ 'Tell me about Ms. Priya D. Ghate.',
+ 'Tell me about Mr. Sachin Surendra Gurav.',
+ 'Tell me about Mr. Sonale Mohan Shrikant.',
+ 'Tell me about Mr. Diwakar M Tayagar.',
+ 'Tell me about Mr. Rohan A. Chougule.',
+ 'Tell me about Mrs. Madhuri N. Sachane.',
+ 'Tell me about Mrs. Halunde Swati S.',
+ 'Tell me about Mrs Dhanashri M Biradar.',
+ 'Tell me about Mrs. Supriya P Kurlekar',
+ 'Tell me about Dr. Narendra Babu.',
+ 'Tell me about Ms. Kalpana N Rode.',
+ 'Tell me about Dr.Chandrasekhar M Tavade.',
+ 'Tell me about Dhas sir.',
+ 'Tell me about Kupade sir.',
+ 'Tell me about Mulik mam.',
+ 'Tell me about Ghorpade sir. ',
+ 'Tell me about Khandare sir. ',
+ 'Tell me about Chimanna sir.',
+ 'Tell me about Salunkhe sir.',
+ 'Tell me about Babar sir.',
+ 'Tell me about Kumar sir.',
+ 'Tell me about Ghate mam.',
+ 'Tell me about Gurav sir.',
+ 'Tell me about Sonale sir.',
+ 'Tell me about Tayagar sir.',
+ 'Tell me about Chougule sir.',
+ 'Tell me about Sachane mam.',
+ 'Tell me about Halunde mam.',
+ 'Tell me about Biradar mam.',
+ 'Who is HOD of Electrical department?',
+ 'How many faculties are there in the Electrical Department?',
+ 'How many Doctorate faculty are there in the Electrical Department?',
+ 'How many labs are in Electrical department?',
+ 'How many classrooms are in Electrical department?',
+ 'How many Doctorate faculty are there in the Electrical Department?',
+ 'what are the ICT tools used in the Department?',
+ 'How many times the feedback is taken?',
+ 'What is vision of Electrical Department?',
+ 'What is mission of Electrical Department?',
+ 'Where is SE Electrical class room?',
+ 'Where is TE Electrical class room?',
+ 'Where is BE Electrical class room?',
+ 'Where is the Faradays AC Machine Lab?',
+ 'Where is the Faradays DC Machine lab?',
+ 'Where is the Computer System lab?',
+ 'Where is the Power Electronics lab?',
+ 'Where is the Power System lab?',
+ 'Where is the Electronics Measurement lab?',
+ 'Where is the Advance Switch Gear lab?',
+ 'Where is the Common Engineering lab?',
+ 'Where is the HV High Voltage Engineering lab?',
+ 'Where is the Electrical HOD cabin?',
+ 'Where is the Electrical Office ?',
+ 'About Department Of Electrical',
+ 'Is WiFi facility available ?',
+ 'Which Students Association are present in Electrical Department?',
+ 'Tell me about Dr. Rajesh M. Patil.',
+ 'Tell me about Dr.T.DANIEL RAJ. ',
+ 'Tell me about Mr. Kulkarni M. S.',
+ 'Tell me about Mr. C. D. Patil.',
+ 'Tell me about Mr. Chougule Gundhar A.',
+ 'Tell me about Mr. Jamadar Asif Liyakat.',
+ 'Tell me about Mr. Shedbalkar K. H.',
+ 'Tell me about Mr. Suryawanshi A A.',
+ 'Tell me about Ms. Londhe A A.',
+ 'Tell me about Mr. Pavankumar R. Patil.',
+ 'Tell me about Mr. Patil Chandrashekhar.',
+ 'Tell me about Patil sir.',
+ 'Tell me about RAJ sir. ',
+ 'Tell me about Kulkarni sir.',
+ 'Tell me about C D Patil sir.',
+ 'Tell me about Chougule sir.',
+ 'Tell me about Jamadar sir.',
+ 'Tell me about Shedbalkar sir.',
+ 'Tell me about Suryawanshi sir.',
+ 'Tell me about Londhe mam.',
+ 'Tell me about P R Patil sir.',
+ 'Tell me about Patil Chandrashekhar sir.',
+ 'Who is Physical Incharge ?',
+ 'In Which Our college participate in  Sports game?',
+ 'Which level college take participate?',
+ 'What are the achievements in sports?'];
+
+/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+autocomplete(document.getElementById("myInput"), quetions);
+</script>
+
+<!-- <script>
+  function startDictation() {
+
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+      var recognition = new webkitSpeechRecognition();
+
+      recognition.continuous = false;
+      recognition.interimResults = false;
+
+      recognition.lang = "en-US";
+      recognition.start();
+
+      recognition.onresult = function(e) {
+        document.getElementById('myInput').value = e.results[0][0].transcript;
+        recognition.stop();
+        document.getElementById('aaa').submit();
+      };
+
+      recognition.onerror = function(e) {
+        recognition.stop();
+      }
+
+    }
+  }
+</script> -->
+
+<script type="text/javascript">
+        function speak () {
+        var msg = new SpeechSynthesisUtterance();
+
+        msg.volume == 1;
+        msg.rate == 0.6;
+        msg.Pitch == 2;
+        msg.text = "{{reply_bot}}";
+        window.speechSynthesis.speak(msg);
+
+      };
+      // function speak1 () {
+      //   var msg = new SpeechSynthesisUtterance();
+
+      //   msg.Volume == 1;
+      //   msg.Rate == 0.7;
+      //   msg.Pitch == 2;
+      //   msg.text = "ok sir";
+      //   window.speechSynthesis.speak(msg);
+
+      // };
+
+//   function startDictation() {
+//       var modal = document.getElementById("myModal");
+
+//       if (window.hasOwnProperty('webkitSpeechRecognition')) {
+        
+//         // modal.style.display = "block";
+//         document.getElementById('myInput').value = "";
+//         var recognition = new webkitSpeechRecognition();
+        
+
+//         recognition.continuous = false;
+//         recognition.interimResults = false;
+
+//         recognition.lang = "en-IN";
+        
+
+
+//         recognition.onresult = function(e) {
+        
+//         var input = e.results[0][0].transcript;
+//         // modal.style.display = "none";
+//         document.getElementById('myInput').value = input;
+//         document.getElementById('aaa').submit();
+
+         
+//         }
+
+//     recognition.start();
+    
+//   }
+// };
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+Who is HOD of CSE department?
+- Dr. Turukmane sir.
+What is internet bandwidth?
+- 100 MBpS.
+what is wifi bandwidth?
+- 50 MBpS.
+how many labs are in CSE department?
+- There are 8 labs in cse Department.
+how many computers in each lab?
+- There are 20 computers in each lab.
+how many classrooms are in CSE department?
+- There are 3 classrooms in the CSE Department.
+what are the ICT tools used in the DEpartment?
+- MOODEL , GetTutor , SymplyCS , FTP , NPTL this are the ICT tools used in the Department.
+how many Tutorial rooms are in CSE department?
+- There is 1 tutorial room in cse Department.
+How many times the feedback is taken?
+- 2 times in the Semister.
+What is vision of CSE Department?
+- To be a centre of excellence in Computer Science & Engineering education to prepare professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society.
+What is vision of CSE Department
+- To be a centre of excellence in Computer Science & Engineering education to prepare professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society.
+What is mission of CSE Department?
+- To prepare technically and professionally competent engineers by imparting quality education through effective teaching learning methodologies and providing stimulating environment for research and innovation. To develop professional skills and right attitude in students that will help them to succeed and progress in their personal and professional career. To imbibe moral and ethical values in students with concern to society and environment.
+What is mission of CSE Department
+- To prepare technically and professionally competent engineers by imparting quality education through effective teaching learning methodologies and providing stimulating environment for research and innovation. To develop professional skills and right attitude in students that will help them to succeed and progress in their personal and professional career. To imbibe moral and ethical values in students with concern to society and environment.
+Where is se cse class room?
+- Room number 60.
+Where is te cse class room?
+- Room number 45.
+Where is be cse class room?
+- Room number 44.
+Where is the tutorial room?
+- Room number 50.
+Where is the opereting system lab?
+- Room number 54.
+Where is the Database lab?
+- Room number 51.
+Where is the web technology lab?
+- Room number 52.
+Where is the project lab?
+- Room number 59.
+Where is the programing lab?
+- Room number 58.
+Where is the Microprocessor lab?
+- Room number 55.
+Where is the languege lab?
+- Room number 57.
+Where is the computer network lab?
+- Room number 56.
+Where is the CSE HOD cabin?
+- Room number 53.
+
+About Department Of Computer Science & Engineering
+-The Computer Science & Engineering department is committed to continuously improve the quality of education by enhancing the knowledge of student and staff members. The department of Computer Science & Engineering with highly qualified staff is well equipped with centralized laboratories having the latest configurations and software tools. The department presents a unique opportunity to study the exciting field with guidance of quality teachers.
+
+program educatinal objective of CSE Department
+-Graduates of the program will. Demonstrate capabilities to develop optimal solution to the real world engineering problems by applying theory based practical approach of engineering and related engineering disciplines.Exhibit professional skills, ethical attitude and sensitivity towards society and environment.Engage in Lifelong learning for successful adaption to technological changes.
+
+tell me about HOD of CSE Department
+	-Name: Dr. A V Turukmane. Designation: Associate Professor & Head of Department. Qualification: PhD(CSE). Area of specialization: Networking and Cyber Secuirity. Teaching Experience: 10 Years. Industrial Experience:0.5 Years. Contact Number: 02322253041.
+
+tell me about Dr. Turukmane sir
+	-Name: Dr. A V Turukmane. Designation: Associate Professor & Head of Department. Qualification: PhD(CSE). Area of specialization: Networking and Cyber Secuirity. Teaching Experience: 10 Years. Industrial Experience:0.5 Years. Contact Number: 02322253041.
+
+tell me about Venkatesh sir	
+	-Name: Mr. Venkatesh Shankar. Designation: Assistant Professor and Program Coordinator. Qualification: BE, M Tech.(CSE), Phd(Pursuing). Area of specialization:Wireless Sensor network. Teaching Experience: 9 Years. Industrial Experience: 0.8 Years. Contact Number: 02322253041.
+
+tell me about Dr. S K Muthusunadar
+	-Name:Dr. S K Muthusunadar. Designation: Professor. Qualification:PhD. Area of specialization:Software Engineering and Image Processing. Teaching Experience:21.5 Years. Contact Number:9444809746.
+
+tell me about N P Jadhav sir
+	-Name:Mr. N P Jadhav. Designation:Assistant Professor. Qualification:BE,MTech(CSE). Area of specialization:Data Base Engineering, Data Analytics, Computer Science. Teaching Experience:10 Years. Industrial Experience: 00 Years. Contact Number: 9730992495
+
+
+
+tell me about Mr. Mulani sir
+	-Name:Mr. U. M. Mulani. Designation: Assistant Professor. Qualification:BE(CSE), MTech(CSE). Area of specialization:Compiler Construction, OOMD. Teaching Experience: 9 Years . Industrial Experience: 1 Years 
+
+
+tell me about Mrs. Jadhav mam
+	-Name:Mrs. Madhuri Jadhav. Designation: Assistant Professor. Qualification:BE(CSE),MTech(CSE). Area of specialization:Security, Cloud Computing. Teaching Experience: 7 Years  .Industrial Experience:0 Years 
+
+tell me about Jamadar sir
+	-Name:Mr. M D Jamadar. Designation: Assistant Professor and Head Website. Qualification:BTECH,MTECH(CSE). Area of specialization:Java Programming, Data Base Engineering, Data Mining. Teaching Experience:7 Years 
+Industrial Experience: 0 Years. Contact Number: 08087457514
+
+tell me about Mrs. jujare mam
+	-Name:Mrs. Jujare Varsha Anup. Designation: Assistant Professor . Qualification:MTech(CSE). Area of specialization:Software Testing and Quality Assurance, Computer Graphics. Teaching Experience:7 Years . Industrial Experience: 0 Years. Contact Number:9552198787
+
+tell me about Ms Kambre mam	
+	-Name:Ms.Shweta Kambare. Designation: Assistant Professor 
+Qualification:M.E. Area of specialization:Text Document Classification. Teaching Experience:2 Years. Industrial Experience: 0 Years 
+
+tell me about Ms hankare mam
+	-Name:Ms. Hankare Priyanka Prakash. Designation: Assistant Professor. Qualification:ME, BE. Area of specialization:Computer Science and Engineering. Teaching Experience:1.5 Years . Industrial Experience: 0 Years. Contact Number:8390911749
+
+tell me about Ms. Prachi mam
+	-Name:Ms.Prachi Sanjay Shete. Designation:Assistant Professor. Qualification:BE(CSE),MTECH(CSE). Area of specialization:Image Processing.Teaching Experience:1.6 Years. Industrial Experience:00 Years. Contact Number:8329157550
+
+
+
+
+

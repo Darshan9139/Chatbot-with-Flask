@@ -1,0 +1,149 @@
+Who is HOD of Electrical department?
+- Dr. R.M.Patil Sir.
+How many faculties are there in the Electrical Department?
+
+- There are 11 faculties in the Electrical DEpartment.
+
+
+How many Doctorate faculty are there in the Electrical Department?
+
+- There are 2 Doctorate and 2 pursuing faculties are their in the Electrical Department.
+How many labs are in Electrical department?
+- There are 9 labs in Electrical Department.
+How many classrooms are in Electrical department?
+- There are 3 classrooms in the Electrical Department.
+How many Doctorate faculty are there in the Electrical Department?
+
+- There are 2 Doctorate and 2 pursuing faculties are their in the Electrical Department.
+what are the ICT tools used in the Department?
+- MOODEL , GetTutor , FTP , NPTL this are the ICT tools used in the Department.
+How many times the feedback is taken?
+- 2 times in the Semister.
+What is vision of Electrical Department?
+- To be a centre of excellence in Electrical Engineering education to prepare professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society.
+What is mission of Electrical Department?
+- To prepare technically and professionally competent engineers by imparting quality education through effective teaching learning methodologies and providing stimulating environment for research and innovation.
+To develop professional skills and positive attitude in students that will help them to succeed and progress in their personal and professional career.
+To imbibe moral and ethical values in students with concern to society and environment.
+Where is SE Electrical class room?
+- Room number 427.
+Where is TE Electrical class room?
+- Room number 428.
+Where is BE Electrical class room?
+- Room number 429.
+Where is the Faradays AC Machine Lab?
+- Room number 353.
+Where is the Faradays DC Machine lab?
+- Room number 354.
+Where is the Computer System lab?
+- Room number 433.
+Where is the Power Electronics lab?
+- Room number 432 A.
+Where is the Power System lab?
+- Room number 438.
+Where is the Electronics Measurement lab?
+- Room number 432 B.
+Where is the Advance Switch Gear lab?
+- Room number 431.
+Where is the Common Engineering lab?
+- Room number 430.
+Where is the HV High Voltage Engineering lab?
+- Room number 200.
+Where is the Electrical HOD cabin?
+- Room number 434.
+Where is the Electrical Office ?
+- Room number 434.
+About Department Of Electrical
+-The department of electrical engineering established in 2010 and offers Bachelor of engineering course. The department currently has 13 faculty members with expertise in diverse areas. Departmental laboratories are well equipped with latest equipment. The department has set up a state of the art “Center for Renewable and Sustainable Energy (CRSE)”. The department is committed to advancement of the frontiers of knowledge in Electrical Engineering and to provide the students with a stimulating and rewarding learning experience.
+Program educational objective of Electrical Departement.
+-Graduates of the program will
+Engage in design of system, tools & application in the field of electrical engineering & allied engineering industries
+Apply the knowledge of electrical engineering to solve problems of social relevance ,pursue higher education & research
+Engage in lifelong learning, career enhancement & adapt to changing professional & societal needs.
+Is WiFi facility available ?
+
+- Yes, WiFi facility is available in the Electrical Department.
+Which Students Association are present in Electrical Department?
+
+-EESA.
+
+Tell me about Dr. Rajesh M. Patil.
+-Name:Dr. Rajesh M. Patil. Designation: Associate Professor and HoD. Qualification: Ph. D. Area of specialization: Power Electronics / Power Quality / Engineering communication. Teaching Experience: 22 Years. Industrial Experience:2 Years. Contact Number: 8605512393.
+
+Tell me about Dr.T.DANIEL RAJ. 
+-Name:Dr.T.DANIEL RAJ. Designation: Associate Professor. Qualification:Ph.D ,M.E, B.E, D.E.E.E. Area of specialization: Power Electronics. Teaching Experience:16.9 Years. Industrial Experience: - Years. Contact Number:9443994269.
+
+Tell me about Mr. Kulkarni M. S.
+-Name: Mr. Kulkarni M. S. Designation: Assistant Professor and Program Coordinator. Qualification: B E (Electrical ),ME (Power System). Area of specialization:Power System. Teaching Experience: 8.5 Years. Industrial Experience: 00 Years. Contact Number: 8149234959.
+
+Tell me about Mr. C. D. Patil.
+-Mr. C. D. Patil. Designation: Assistant Professor. Qualification:B.E, M.E(Power System). Area of specialization:Power System Machine. Teaching Experience:7.5 Years. Industrial Experience: 00 Years. Contact Number:9860400422.
+
+Tell me about Mr. Chougule Gundhar A.
+-Name:Mr. Chougule Gundhar A. Designation: Assistant Professor. Qualification:ME(Power System). Area of specialization:Power System. Teaching Experience:7.2 Years. Industrial Experience: Nil. Contact Number:9665805714.
+
+Tell me about Mr. Jamadar Asif Liyakat.
+-Name:Mr. Jamadar Asif Liyakat. Designation: Assistant Prof. Qualification:M.E (Electrical Power System). Area of specialization:Electrical Power System. Teaching Experience:6 Years. Industrial Experience: Nil. Contact Number: 7385105528.
+
+Tell me about Mr. Shedbalkar K. H.
+-Name:Mr. Shedbalkar K. H. Designation: Assistant Professor. Qualification: B E (Electrical ), M.Tech (Control System), Ph.D. (Pursuing). Area of specialization: Control System. Teaching Experience:6 Year. Industrial Experience:00 Years. Contact Number: 8149687801.
+
+Tell me about Mr. Suryawanshi A A.
+-Name:Mr. Suryawanshi A A. Designation: Assistant Professor and Academic Incharge. Qualification: BE (Electrical)., ME(Power System). Area of specialization:Power System. Teaching Experience: 5.6 Years. Industrial Experience:0.5 Years. Contact Number: 9970028737.
+
+Tell me about Ms. Londhe A A.
+-Name:Ms. Londhe A A. Designation: Assistant Professor. Qualification: B.Tech(Electrical) , M.Tech (Power and Energy System). Area of specialization:Power Electronics, Renewable Energy. Teaching Experience:5.5Years. Industrial Experience: 1 Years. Contact Number: 8856835401.
+
+Tell me about Mr. Pavankumar R. Patil.
+-Name:Mr. Pavankumar R. Patil. Designation: Assistant Professor. Qualification:M.Tech(PE), Ph.D.(Pursuing). Area of specialization:Power Electronics. Teaching Experience: 5.2 Years. Industrial Experience: 2 years. Contact Number: 9886152279.
+
+Tell me about Mr. Patil Chandrashekhar.
+-Name:Mr. Patil Chandrashekhar. Designation: Assistant Professor. Qualification:BE, ME. Area of specialization:Instrumentation and Control Engineering. Teaching Experience:1.9 Years. Industrial Experience: 10 Years. Contact Number:8861255180.
+
+Tell me about Patil sir.
+-Name:Dr. Rajesh M. Patil. Designation: Associate Professor and HoD. Qualification: Ph. D. Area of specialization: Power Electronics / Power Quality / Engineering communication. Teaching Experience: 22 Years. Industrial Experience:2 Years. Contact Number: 8605512393.
+
+Tell me about RAJ sir. 
+-Name:Dr.T.DANIEL RAJ. Designation: Associate Professor. Qualification:Ph.D ,M.E, B.E, D.E.E.E. Area of specialization: Power Electronics. Teaching Experience:16.9 Years. Industrial Experience: - Years. Contact Number:9443994269.
+
+Tell me about Kulkarni sir.
+-Name: Mr. Kulkarni M. S. Designation: Assistant Professor and Program Coordinator. Qualification: B E (Electrical ),ME (Power System). Area of specialization:Power System. Teaching Experience: 8.5 Years. Industrial Experience: 00 Years. Contact Number: 8149234959.
+
+Tell me about C D Patil sir.
+-Mr. C. D. Patil. Designation: Assistant Professor. Qualification:B.E, M.E(Power System). Area of specialization:Power System Machine. Teaching Experience:7.5 Years. Industrial Experience: 00 Years. Contact Number:9860400422.
+
+Tell me about Chougule sir.
+-Name:Mr. Chougule Gundhar A. Designation: Assistant Professor. Qualification:ME(Power System). Area of specialization:Power System. Teaching Experience:7.2 Years. Industrial Experience: Nil. Contact Number:9665805714.
+
+Tell me about Jamadar sir.
+-Name:Mr. Jamadar Asif Liyakat. Designation: Assistant Prof. Qualification:M.E (Electrical Power System). Area of specialization:Electrical Power System. Teaching Experience:6 Years. Industrial Experience: Nil. Contact Number: 7385105528.
+
+Tell me about Shedbalkar sir.
+-Name:Mr. Shedbalkar K. H. Designation: Assistant Professor. Qualification: B E (Electrical ), M.Tech (Control System), Ph.D. (Pursuing). Area of specialization: Control System. Teaching Experience:6 Year. Industrial Experience:00 Years. Contact Number: 8149687801.
+
+Tell me about Suryawanshi sir.
+-Name:Mr. Suryawanshi A A. Designation: Assistant Professor and Academic Incharge. Qualification: BE (Electrical)., ME(Power System). Area of specialization:Power System. Teaching Experience: 5.6 Years. Industrial Experience:0.5 Years. Contact Number: 9970028737.
+
+Tell me about Londhe mam.
+-Name:Ms. Londhe A A. Designation: Assistant Professor. Qualification: B.Tech(Electrical) , M.Tech (Power and Energy System). Area of specialization:Power Electronics, Renewable Energy. Teaching Experience:5.5Years. Industrial Experience: 1 Years. Contact Number: 8856835401.
+
+Tell me about P R Patil sir.
+-Name:Mr. Pavankumar R. Patil. Designation: Assistant Professor. Qualification:M.Tech(PE), Ph.D.(Pursuing). Area of specialization:Power Electronics. Teaching Experience: 5.2 Years. Industrial Experience: 2 years. Contact Number: 9886152279.
+
+Tell me about Patil Chandrashekhar sir.
+-Name:Mr. Patil Chandrashekhar. Designation: Assistant Professor. Qualification:BE, ME. Area of specialization:Instrumentation and Control Engineering. Teaching Experience:1.9 Years. Industrial Experience: 10 Years. Contact Number:8861255180.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

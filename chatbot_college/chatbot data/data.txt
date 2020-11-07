@@ -1,0 +1,49 @@
+Hii
+hello
+hii
+hello
+hi
+hello
+what is your name
+ChatBot
+what is your name?
+ChatBot
+who are you
+chatbot
+what is your gender
+I am an Machine
+good morning
+good morning! How are you
+i am fine 
+Great
+i am fine What about you
+Every thing is wroking fine! thanks for asking..
+good afternoon
+good afternoon! How was a Day?
+nice
+Great
+worst
+Why What happan
+nothing
+Ok! Take Care..
+Assigment khup ahe
+Me lihun deu ka?
+De ki 
+I want to help You But i can't.. Sorry
+tell me a joke
+I Use Higher level Language You can't decode my joke.. just kidding That is a joke 
+who is is your creater
+Darshan patil From SECSE
+which language you use
+python
+tell me about your architecture
+i am an python based chatbot
+modual used for you
+chatterbot,speech_recognition
+tell me about sitcoe 
+ohh.. sit it is a very populer college in maharashtra..
+good evening 
+good evening. How was your day?
+
+
+

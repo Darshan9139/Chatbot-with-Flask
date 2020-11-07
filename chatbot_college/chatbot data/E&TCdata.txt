@@ -1,0 +1,209 @@
+Who is HOD of E&TC department?
+- Dr. Narendra Babu Sir.
+How many faculties are there in the E&TC Department?
+
+- There are 21 faculties in the E&TC DEpartment.
+
+
+How many Doctorate faculty are there in the E&TC Department?
+
+- There are 3 Doctorate and 3 pursuing faculties are their in the E&TC Department.
+How many labs are in E&TC department?
+- There are 10 labs in E&TC Department.
+How many computers in each lab?
+- There are 20 computers in each lab.
+How many classrooms are in E&TC department?
+- There are 6 classrooms in the E&TC Department.
+what are the ICT tools used in the DEpartment?
+- MOODEL , GetTutor , FTP , NPTL this are the ICT tools used in the Department.
+How many times the feedback is taken?
+- 2 times in the Semester.
+Where is SE E&TC class room?
+- Room number 76 A,77 B.
+Where is TE E&TC class room?
+- Room number 71 A,75 B .
+Where is BE E&TC class room?
+- Room number 78.
+Where is the Analog Design Lab?
+- Room number 65.
+Where is the Measurement lab?
+- Room number 81.
+Where is the Video Engineering lab?
+- Room number 83.
+Where is the Digital Design and Microprocessor lab?
+- Room number 85.
+Where is the Communication lab?
+- Room number 86.
+Where is the Advanced Communication lab?
+- Room number 66.
+Where is the Power Electronic and ESD lab?
+- Room number 67.
+Where is the computer Language lab?
+- Room number 68.
+Where is the computer Program 2 lab?
+- Room number 69.
+Where is the computer Program 1 lab?
+- Room number 70.
+Where is the E&TC HOD cabin?
+- Room number 64 A.
+Where is the E&TC Office ?
+- Room number 64 B.
+About Department Of E&TC
+-The field of telecommunication has evolved from a stage of signs which were used for long distance communications, to a stage when electrical radio & electro optical signals are being used. Recent trends in telecommunications are internet, ISDN, ATM for high-speed communication. Along with this, satellite communications has vital role in telecommunication. This field, too, includes DSP, Image processing, GPS for Defense communication system, Security system and so on. Thus, the field has very wide scope throughout the world. So, there is great employment potential in India and abroad. Everywhere Electronics and Telecommunication Engineers are required. Electronics Engineers can work in the emerging fields like VLSI & Embedded systems design and Image processing.  
+program educational objective of E&TC Departement.
+What is Vision of E&TC Department?
+-To be a centre of excellence in Electronics and Telecommunication Engineering education to prepare professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society.
+What is Mission of E&TC Department?
+-To prepare technically and professionally competent engineers by imparting quality education through effective teaching learning methodologies and providing stimulating environment for research and innovation.
+To develop professional skills and right attitude in students that will help them to succeed and progress in their personal and professional career.
+To imbibe moral and ethical values in students with concern to society and environment.
+
+
+Has your educational experience been measured up to your expectations ?
+
+- Yes.
+Are you providing feedback as a part of a quality/programme improvement mechanism ?
+
+- Yes.
+How many times is faculty feedback taken?
+- Faculty feedback is taken twice a in a semester.
+Is WiFi facility available ?
+
+- Yes, WiFi facility is available in the CSE Department.
+Which Students Association are present in CSE Department?
+
+-ETESA.
+
+Tell me about Mrs. Supriya P Kurlekar
+-Name:Mrs. Supriya P Kurlekar. Designation: Assistant Professor & vice Principal. Qualification: BE (Electronics), ME (electronics). Area of specialization: VLSI. Teaching Experience: 19 Years. Industrial Experience:0. Contact Number: 02322253045
+
+Tell me about Dr. Narendra Babu.
+-Name:Dr. Narendra Babu. Designation: Professor and HOD. Qualification: BTech, M Tech, Ph.D. Area of specialization: Signal Processing & Image Processing. Experience: 20 years. Teaching: 12 years. Industrial:8 years. Contact Number: 9100465808.
+
+Tell me about Ms. Kalpana N Rode.
+-Name:Ms. Kalpana N Rode (Dean Academics). Designation: Assistant professor. Qualification:ME (Electronics). Area of specialization: communication. Teaching Experience: 13 Years. Industrial Experience: 1 Years. Contact Number: 9158971240.
+
+Tell me about Dr.Chandrasekhar M Tavade.
+-Name:Dr.Chandrasekhar M Tavade. Designation: Professor. Qualification:BE (EC), ME (PE), PhD. Area of specialization: Dielectric Materials. Teaching Experience: 33 Years. Industrial Experience: 0 Years. Research Experience: 4 Years. Contact Number:9483354596.
+
+Tell me about Dr. Ananad J Dhas.
+-Name:Dr. Ananad J Dhas. Designation: Associate Professor. Qualification:Ph.D. Area of specialization: Ph. D(Medical image processing),ME(Applied Electronics). Teaching Experience: 13 Years. Contact Number: 6383655317.
+
+Tell me about Mr. Kupade K. A.
+-Name:Mr. Kupade K. A. Designation: Assistant Professor (Program coordinator). Qualification:M-Tech (VLSI System Design). Area of specialization:Networking. Teaching Experience: 8 Years. Industrial Experience:9.5 Years. Contact Number: 9960376011.
+
+Tell me about Ms Madhuri B Mulik.
+-Name:Ms Madhuri B Mulik. Designation: Assistant professor. Qualification:MTech ET. Area of specialization: VLSI And Embedded. Teaching Experience: 11.3 Years. Contact Number:9921660850
+.
+
+Tell me about Shital Ranjit Ghorpade. 
+-Name:Shital Ranjit Ghorpade. Designation: Assistant Professor. Qualification:ME ETC. Area of specialization:Image Processing. Teaching Experience: 11.3 Years. Industrial Experience: Nil. E mail:Shital_sokashe@yahoo.co.in. Contact Number:9422581005.
+
+Tell me about Mr. Vaibhav V.Khandare. 
+-Name:Mr. Vaibhav V.Khandare. Designation: Assistant Professor. Qualification:M.E(ETC). Area of specialization: Image Processing. Teaching Experience:11 Years. Industrial Experience: 1 Years. Contact Number:9096713761.
+
+Tell me about Mr.Mohan A. Chimanna.
+-Name:Mr.Mohan A. Chimanna. Designation: Assistant Professor. Qualification:ME(ETC). Area of specialization:Antenna and Microwave Engineering. Teaching Experience:10 Years. Industrial Experience: 1 Years. Contact Number: 9673612299.
+
+Tell me about Ms. Sharda Y Salunkhe.
+-Name:Ms. Sharda Y Salunkhe. Designation: Assistant Professor. Qualification: M.E.ETC. Area of specialization:image processing. Teaching Experience:9.5 Years. Industrial Experience: 0 Years. Contact Number:9975955219.
+
+Tell me about Mr. Manoj Motilal Babar.
+-Name:Mr. Manoj Motilal Babar. Designation: Assistant Professor. Qualification:M.E Electronics. Area of specialization:Embedded System. Teaching Experience: 8 Years. Industrial Experience: 1.5 Years. Contact Number:8796650170.
+
+Tell me about Mr. Sharan Kumar.
+-Name:Mr. Sharan Kumar. Designation: Assistant Professor. Qualification: M Tech Ph.D (Pursuing)-Biomedical Image Processing. Area of specialization:VLSI Design & Embedded Systems. Teaching Experience: 8 Years. Industrial Experience: 0. Contact Number:8379951810.
+
+Tell me about Ms. Priya D. Ghate.
+-Name:Ms. Priya D. Ghate. Designation: Assistant Professor (Academic Coordinator). Qualification:BE (ETC), ME (Electronics). Area of specialization:Communication. Teaching Experience: 8 Years. Industrial Experience: Nil. Contact Number: 9886152279.
+
+Tell me about Mr. Sachin Surendra Gurav.
+-Name:Mr. Sachin Surendra Gurav. Designation: Assistant Professor. Qualification:M.E (E&TC), Ph.D (Persuing) -Video Surveillance. Area of specialization:Image and video. Teaching Experience:7 Years. Industrial Experience: 00 Years. Contact Number:9503675392. 
+
+Tell me about Mr. Sonale Mohan Shrikant.
+-Name:Mr. Sonale Mohan Shrikant. Designation: Assistant Professor. Qualification:ME (Electronics). Area of specialization:Wireless Communication. Teaching Experience:6 Years. Industrial Experience: 2 Years. Contact Number:8857986062.
+
+Tell me about Mr. Diwakar M Tayagar.
+-Name:Mr. Diwakar M Tayagar. Designation: Assistant Professor. Qualification:M.Tech. Area of specialization:VLSI System Design, Embedded System. Teaching Experience: 6.5 Years. Industrial Experience: 6 months. Contact Number: 8970160265.
+
+Tell me about Mr. Rohan A. Chougule.
+-Name:Mr. Rohan A. Chougule. Designation: Assistant Professor. Qualification:ME ETC PhD(Pursuing). Area of specialization:Wireless communication. Teaching Experience: 6.5 Years. Industrial Experience: 9 Months. Contact Number:9028410899.
+
+Tell me about Mrs. Madhuri N. Sachane.
+-Name:Mrs. Madhuri N. Sachane. Designation: Assistant professor. Qualification:ME ETC. Area of specialization: Image Processing. Teaching Experience: 6.5 Years. Industrial Experience: 6 Months. Contact Number: 9623963485 
+
+Tell me about Mrs. Halunde Swati S.
+-Name:Mrs. Halunde Swati S. Designation: Assistant Professor. Qualification:ME (E &Tc). Area of specialization:Image Processing , Wireless Communication. Teaching Experience: 6 Years. Industrial Experience: 00 Years. Contact Number:7620181744.
+
+Tell me about Mrs Dhanashri M Biradar.
+-Name:Mrs Dhanashri M Biradar. Designation: Assistant Professor. Qualification:ME EMB. Area of specialization:Embedded System. Teaching Experience:5.5 Years. Industrial Experience: Nil. Contact Number:8805338282.
+
+Tell me about Mrs. Supriya P Kurlekar
+-Name:Mrs. Supriya P Kurlekar. Designation: Assistant Professor & vice Principal. Qualification: BE (Electronics), ME (electronics). Area of specialization: VLSI. Teaching Experience: 19 Years. Industrial Experience:0. Contact Number: 02322253045
+
+Tell me about Dr. Narendra Babu.
+-Name:Dr. Narendra Babu. Designation: Professor and HOD. Qualification: BTech, M Tech, Ph.D. Area of specialization: Signal Processing & Image Processing. Experience: 20 years. Teaching: 12 years. Industrial:8 years. Contact Number: 9100465808.
+
+Tell me about Ms. Kalpana N Rode.
+-Name:Ms. Kalpana N Rode (Dean Academics). Designation: Assistant professor. Qualification:ME (Electronics). Area of specialization: communication. Teaching Experience: 13 Years. Industrial Experience: 1 Years. Contact Number: 9158971240.
+
+Tell me about Dr.Chandrasekhar M Tavade.
+-Name:Dr.Chandrasekhar M Tavade. Designation: Professor. Qualification:BE (EC), ME (PE), PhD. Area of specialization: Dielectric Materials. Teaching Experience: 33 Years. Industrial Experience: 0 Years. Research Experience: 4 Years. Contact Number:9483354596.
+
+Tell me about Dhas sir.
+-Name:Dr. Ananad J Dhas. Designation: Associate Professor. Qualification:Ph.D. Area of specialization: Ph. D(Medical image processing),ME(Applied Electronics). Teaching Experience: 13 Years. Contact Number: 6383655317.
+
+Tell me about Kupade sir.
+-Name:Mr. Kupade K. A. Designation: Assistant Professor (Program coordinator). Qualification:M-Tech (VLSI System Design). Area of specialization:Networking. Teaching Experience: 8 Years. Industrial Experience:9.5 Years. Contact Number: 9960376011.
+
+Tell me about Mulik mam.
+-Name:Ms Madhuri B Mulik. Designation: Assistant professor. Qualification:MTech ET. Area of specialization: VLSI And Embedded. Teaching Experience: 11.3 Years. Contact Number:9921660850
+.
+
+Tell me about Ghorpade sir. 
+-Name:Shital Ranjit Ghorpade. Designation: Assistant Professor. Qualification:ME ETC. Area of specialization:Image Processing. Teaching Experience: 11.3 Years. Industrial Experience: Nil. E mail:Shital_sokashe@yahoo.co.in. Contact Number:9422581005.
+
+Tell me about Khandare sir. 
+-Name:Mr. Vaibhav V.Khandare. Designation: Assistant Professor. Qualification:M.E(ETC). Area of specialization: Image Processing. Teaching Experience:11 Years. Industrial Experience: 1 Years. Contact Number:9096713761.
+
+Tell me about Chimanna sir.
+-Name:Mr.Mohan A. Chimanna. Designation: Assistant Professor. Qualification:ME(ETC). Area of specialization:Antenna and Microwave Engineering. Teaching Experience:10 Years. Industrial Experience: 1 Years. Contact Number: 9673612299.
+
+Tell me about Salunkhe sir.
+-Name:Ms. Sharda Y Salunkhe. Designation: Assistant Professor. Qualification: M.E.ETC. Area of specialization:image processing. Teaching Experience:9.5 Years. Industrial Experience: 0 Years. Contact Number:9975955219.
+
+Tell me about Babar sir.
+-Name:Mr. Manoj Motilal Babar. Designation: Assistant Professor. Qualification:M.E Electronics. Area of specialization:Embedded System. Teaching Experience: 8 Years. Industrial Experience: 1.5 Years. Contact Number:8796650170.
+
+Tell me about Kumar sir.
+-Name:Mr. Sharan Kumar. Designation: Assistant Professor. Qualification: M Tech Ph.D (Pursuing)-Biomedical Image Processing. Area of specialization:VLSI Design & Embedded Systems. Teaching Experience: 8 Years. Industrial Experience: 0. Contact Number:8379951810.
+
+Tell me about Ghate mam.
+-Name:Ms. Priya D. Ghate. Designation: Assistant Professor (Academic Coordinator). Qualification:BE (ETC), ME (Electronics). Area of specialization:Communication. Teaching Experience: 8 Years. Industrial Experience: Nil. Contact Number: 9886152279.
+
+Tell me about Gurav sir.
+-Name:Mr. Sachin Surendra Gurav. Designation: Assistant Professor. Qualification:M.E (E&TC), Ph.D (Persuing) -Video Surveillance. Area of specialization:Image and video. Teaching Experience:7 Years. Industrial Experience: 00 Years. Contact Number:9503675392. 
+
+Tell me about Sonale sir.
+-Name:Mr. Sonale Mohan Shrikant. Designation: Assistant Professor. Qualification:ME (Electronics). Area of specialization:Wireless Communication. Teaching Experience:6 Years. Industrial Experience: 2 Years. Contact Number:8857986062.
+
+Tell me about Tayagar sir.
+-Name:Mr. Diwakar M Tayagar. Designation: Assistant Professor. Qualification:M.Tech. Area of specialization:VLSI System Design, Embedded System. Teaching Experience: 6.5 Years. Industrial Experience: 6 months. Contact Number: 8970160265.
+
+Tell me about Chougule sir.
+-Name:Mr. Rohan A. Chougule. Designation: Assistant Professor. Qualification:ME ETC PhD(Pursuing). Area of specialization:Wireless communication. Teaching Experience: 6.5 Years. Industrial Experience: 9 Months. Contact Number:9028410899.
+
+Tell me about Sachane mam.
+-Name:Mrs. Madhuri N. Sachane. Designation: Assistant professor. Qualification:ME ETC. Area of specialization: Image Processing. Teaching Experience: 6.5 Years. Industrial Experience: 6 Months. Contact Number: 9623963485 
+
+Tell me about Halunde mam.
+-Name:Mrs. Halunde Swati S. Designation: Assistant Professor. Qualification:ME (E &Tc). Area of specialization:Image Processing , Wireless Communication. Teaching Experience: 6 Years. Industrial Experience: 00 Years. Contact Number:7620181744.
+
+Tell me about Biradar mam.
+-Name:Mrs Dhanashri M Biradar. Designation: Assistant Professor. Qualification:ME EMB. Area of specialization:Embedded System. Teaching Experience:5.5 Years. Industrial Experience: Nil. Contact Number:8805338282.
+
+
+
+
+
+
